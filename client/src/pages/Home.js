@@ -7,7 +7,9 @@ const Home = () => {
         <>
             <Header />
             <Navbar />
-            
+            <div className="home-container bg-black min-h-[65vh] w-screen">
+                home
+            </div>
         </>
 
     )

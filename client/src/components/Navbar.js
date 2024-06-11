@@ -13,7 +13,7 @@ const Navbar = () => {
             <div className="navbar-start">
                 {/* filler for left side of navbar */}
             </div>
-            <div className="navbar-center flex gap-10">
+            <div className="navbar-center flex gap-10 h-[5vh]">
                 <Link to="/" className="text-white">Portfolio</Link>
                 <Link to="/about" className="text-white">About</Link>
                 <a href={twitterLink} target="_blank" rel="noopener noreferrer">
