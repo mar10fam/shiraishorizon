@@ -6,6 +6,9 @@ const About = () => {
         <>
             <Header />
             <Navbar />
+            <div className="bg-black min-h-[65vh] w-screen">
+                about
+            </div>
         </>
     )
 }
