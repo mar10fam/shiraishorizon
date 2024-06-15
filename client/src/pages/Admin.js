@@ -27,6 +27,7 @@ const Admin = () => {
         // clear the artUrlList
         setArtUrlList([]);
 
+        // upload each file to firebase and save to array of file URLs
         artworks.forEach((artwork => {
             const artworkRef = ref(storage, `${artwork.name + v4()}`)
             uploadBytes(artworkRef, artwork).then(() => {
@@ -35,9 +36,9 @@ const Admin = () => {
                 })
             })
         }))
-        // save the urls of the images
 
         // upload to db 
+        
     }
 
     return (
